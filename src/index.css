@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.kkjQBD {
+  padding: "0px" !important;
+}
+
+.active {
+  background-color: "#0090c540";
+  color: "#0090C5";
+}
+.datepicker {
+  width: 150px !important;  /* Adjust the width to your desired value */
+}
+.custom-datepicker-input {
+  width: 80px !important  ; /* Adjust the width as per your preference */
+  color: gray; /* Set the input text color to the same as the background color */
+  background-color: #F4F5F7; /* Set the input background color */
+  border: none; /* Optionally remove the border */
+  /* Add any other desired styles */
+}
+
+/* sidebar Scrolling */
+
+.Sidebar_Scroll::-webkit-scrollbar {
+        display: none;
+}
